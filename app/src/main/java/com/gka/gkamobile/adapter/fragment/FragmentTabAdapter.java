@@ -1,4 +1,4 @@
-package com.gka.gkamobile.adapter;
+package com.gka.gkamobile.adapter.fragment;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
