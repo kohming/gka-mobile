@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
 
-    <androidx.coordinatorlayout.widget.CoordinatorLayout
+ <!--   <androidx.coordinatorlayout.widget.CoordinatorLayout
         android:id="@+id/main_content"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent">-->
 
         <com.google.android.material.appbar.AppBarLayout
             android:id="@+id/appbar"
@@ -19,13 +19,14 @@
 
             <com.google.android.material.tabs.TabLayout
                 android:id="@+id/result_tabs"
-                android:background="@color/colorAccent"
-                app:tabTextColor="@color/colorPrimaryDark"
-                app:tabSelectedTextColor="@color/colorPrimary"
-                app:tabIndicatorColor="@color/colorPrimary"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:tabMode="scrollable"/>
+                android:minHeight="?actionBarSize"
+                app:tabGravity="fill"
+                app:tabIndicatorColor="@color/color100"
+                app:tabIndicatorHeight="4dp"
+                app:tabBackground="@color/colorPrimary"
+                app:tabMode="fixed"/>
         </com.google.android.material.appbar.AppBarLayout>
 
         <androidx.viewpager.widget.ViewPager
@@ -34,6 +35,6 @@
             android:layout_height="match_parent"
             app:layout_behavior="@string/appbar_scrolling_view_behavior" />
 
-    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+   <!-- </androidx.coordinatorlayout.widget.CoordinatorLayout>-->
 
-</RelativeLayout>
+</LinearLayout>

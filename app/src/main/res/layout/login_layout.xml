@@ -13,7 +13,9 @@
         android:paddingLeft="24dp"
         android:paddingRight="24dp">
 
-        <ImageView android:src="@mipmap/ic_keluarga_allah"
+        <ImageView
+            android:id="@+id/ivLogo"
+            android:src="@mipmap/ic_keluarga_allah"
             android:layout_width="wrap_content"
             android:layout_height="120dp"
             android:layout_marginBottom="64dp"

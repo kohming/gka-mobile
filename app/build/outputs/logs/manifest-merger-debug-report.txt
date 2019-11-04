@@ -1,207 +1,378 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/popy/Documents/gka/workspace_gka/app/src/main/AndroidManifest.xml:2:1-28:12
-INJECTED from /home/popy/Documents/gka/workspace_gka/app/src/main/AndroidManifest.xml:2:1-28:12
-INJECTED from /home/popy/Documents/gka/workspace_gka/app/src/main/AndroidManifest.xml:2:1-28:12
-INJECTED from /home/popy/Documents/gka/workspace_gka/app/src/main/AndroidManifest.xml:2:1-28:12
-MERGED from [androidx.navigation:navigation-ui:2.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/38e2b803083f5edbdfc86e01aa7e2980/jetified-navigation-ui-2.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.material:material:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/9ee5da6fca20f6f07dce6c73fc4ca33a/material-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.appcompat:appcompat:1.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/f5bdf8930f5b0dade80802408310dda6/appcompat-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/popy/.gradle/caches/transforms-2/files-2.1/c1763829f79bc3811543d2bb9a22b866/constraintlayout-1.1.3/AndroidManifest.xml:2:1-11:12
-MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/a44642c3bddc1cd9ae77529ce5394be3/appcompat-resources-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/bf0848ee243e36dc13961016c6f63543/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/9572194aa98bde0ee13f87e0985824cf/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.navigation:navigation-fragment:2.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/834397949403ccef5558b21c9967f60e/navigation-fragment-2.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/4f3f57a83cb26d1dd8ca69501722966b/lifecycle-extensions-2.1.0/AndroidManifest.xml:17:1-25:12
-MERGED from [androidx.fragment:fragment:1.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/df9a84c4655b7cf6fd3ecff2821fd9d3/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.recyclerview:recyclerview:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/99839343cfb353ec06147cc6109cf9b2/recyclerview-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/67e3a22614326cadf216274f01d6d423/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/3d66247cb3e229dc7753f5f4d3b35b4b/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/984e9edaa0792ad5f44429be517dd8ee/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.transition:transition:1.0.1] /home/popy/.gradle/caches/transforms-2/files-2.1/278c8e284db6fc9800db55d51ff5aab6/transition-1.0.1/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/7ae8c1d65b7331eeb350edf91287a16c/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.loader:loader:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/de3b4aff63e255359d6d83ac6fbdaff5/loader-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.navigation:navigation-runtime:2.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/fef0d3e0cf442fb5cdebaa3af059bc1d/navigation-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.activity:activity:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/b96b3435fb358bdd7f04f1152639314c/activity-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/cbfe81a657ef2afb513a6ca64388f844/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/985ff358bb91108c25d3fd24361b35b6/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.customview:customview:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/2dfde23a071269bfc073d57af77f7873/customview-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/9b9140e118d7f4f83e504277c0661cb2/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/7b3b7b721ad53547c0e35001526b3ae3/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.navigation:navigation-common:2.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/53b80eb10e19cd993179f750793a192b/navigation-common-2.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.core:core:1.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/7f6c41cc2a14c0fbaa8d0166c17dc544/core-1.1.0/AndroidManifest.xml:17:1-26:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/fb37b7f790edcc9d7fe6d3e5314b8c56/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.cardview:cardview:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/c034f7088c57e18a85dafc68b942945f/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/9a29ee90fd211f611caccd9d338a3e44/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/e50b3f7edd4f9041d2755ee263c7c860/lifecycle-process-2.1.0/AndroidManifest.xml:17:1-30:12
-MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/56ac9380cb774c810e6009b415c27771/lifecycle-service-2.1.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/1bd2f6a321d0549948d7f1edb5f036d6/lifecycle-runtime-2.1.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/bd0a62944459a1adc1265a78d0c60d40/lifecycle-livedata-2.1.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/03f4a17b2aa275cfc7a94c5e6df20a9c/lifecycle-livedata-core-2.1.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/7fd288a66b1b8e0d6669d784ba4e7ede/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.savedstate:savedstate:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/f031147607d3aeb238f176a00d5e308c/savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/55566c395264c409f125230efea7fd76/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/2d1f640c1b4beb33089ff5c91bbd7f31/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.documentfile:documentfile:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/8506ddbc1ed30380944ad7f0369e4760/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/35d6382087ac1999db47004e3bf24934/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.print:print:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/8893b90c6f2a61edd1acfa898cb4cde1/print-1.0.0/AndroidManifest.xml:17:1-22:12
-INJECTED from /home/popy/Documents/gka/workspace_gka/app/src/main/AndroidManifest.xml:2:1-28:12
-INJECTED from /home/popy/Documents/gka/workspace_gka/app/src/main/AndroidManifest.xml:2:1-28:12
-INJECTED from /home/popy/Documents/gka/workspace_gka/app/src/main/AndroidManifest.xml:2:1-28:12
+ADDED from /home/popy/Documents/gka/workspace_gka/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /home/popy/Documents/gka/workspace_gka/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /home/popy/Documents/gka/workspace_gka/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /home/popy/Documents/gka/workspace_gka/app/src/main/AndroidManifest.xml:2:1-34:12
+MERGED from [androidx.navigation:navigation-ui:2.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/e907733e511d43fcbae2e32407af2db9/jetified-navigation-ui-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/37c59bb9490af5ce168f6af314373aaf/material-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/f0f00ace77ec1f6933ba390ef5299f71/appcompat-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/popy/.gradle/caches/transforms-2/files-2.1/06b328900271d387292b684738984190/constraintlayout-1.1.3/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/f0048c7e3b1467039344bc3cf5c2861a/appcompat-resources-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/05574dbcf027747f7d0f86220dfc5375/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/a0a75a08c915af6e89c358c7c9393454/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-fragment:2.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/fd49fc6b9b85a6c3336cbb13a3e5285e/navigation-fragment-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/5876f743e5caeb901d99c55102a26b11/lifecycle-extensions-2.1.0/AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/00ef7558537e5b6236eebb808e0a830b/recyclerview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.room:room-guava:2.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/ae6595bb681fe537a44fa8537798f4e4/room-guava-2.2.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/b8add2e3672dfc67176115c6b10100f2/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:glide:4.8.0] /home/popy/.gradle/caches/transforms-2/files-2.1/37c1d1ee8d0fe1ab1824c42f0d570e03/jetified-glide-4.8.0/AndroidManifest.xml:2:1-12:12
+MERGED from [com.google.firebase:firebase-analytics:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/b1dc4621fec89999ea1c7bf4b6c0aa50/firebase-analytics-17.2.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/1b3c43fe995505aa600f346b34ee8056/play-services-measurement-17.2.1/AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/0cd3a669731a5c1a1205893154286809/play-services-measurement-api-17.2.1/AndroidManifest.xml:17:1-36:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/e22ded062ee6d297995a62bec09840c7/play-services-measurement-sdk-17.2.1/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/58ff2540e5658b49975ca2e63d805927/play-services-measurement-impl-17.2.1/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/73d5b113065ca1d49138438d8d65f6ae/play-services-measurement-sdk-api-17.2.1/AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-measurement-base:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/2d64f48998be17f4f35f487ea9b5f30c/play-services-measurement-base-17.2.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/2b1dad59a13a77d4ae94684324d93525/firebase-iid-19.0.0/AndroidManifest.xml:17:1-47:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/842d2cfbaa59f75d2a11d9271adec69f/play-services-stats-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-common:19.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/bb19830102ada7a41fe0b16856c6b2a8/firebase-common-19.0.0/AndroidManifest.xml:2:1-19:12
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/7385e2bc8b9556f20ab0b97431f88ea5/firebase-iid-interop-17.0.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/59d8114bca0c340ff0fe8d5c634ff8dc/play-services-base-17.0.0/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/7fc0522e94fff7c1764a35f95034248d/play-services-tasks-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/a9c18ae076570452a883cb1470222818/firebase-measurement-connector-18.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/d114e0cffbb817daf9c3387c0f6187d0/play-services-ads-identifier-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/aff0bc480dc353930c400d00c68f85d0/jetified-play-services-basement-17.0.0/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/03749e1f33b9e0e8d8bad1c230eba813/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/70743a42805cd1bfac29254e8e61816b/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/18faca3ffc249f896a32e7ad95a49d04/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.room:room-rxjava2:2.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/9d8fa6c8ba369e8340331248cb7f41f0/room-rxjava2-2.2.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/8801b80dfca66b7e06976e28d16f22d4/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.0.1] /home/popy/.gradle/caches/transforms-2/files-2.1/4cd052c2c2a961efc998ffeb220d9288/transition-1.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/1cb58e7603104218492d4c7233a33f30/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.jakewharton:butterknife:10.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/85a34fdf553707fc1a84f3af346deb30/butterknife-10.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.jakewharton:butterknife-runtime:10.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/3216ac75b6d02563c3c075bfe98c2961/butterknife-runtime-10.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/9c2bdf3b637938204ee2631b6e302646/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/cbf323ddfdc0e35ad5fb0c64f9ea090d/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime:2.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/906c363b86da9eed30b476bf38d5820f/navigation-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/c87c63a12e270d4cf554e443470841f4/activity-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/769a8cd4f48605f030356d293f113748/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/6f511aec1b21c3520360775942d0100a/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/4a0af19015d037555b8550b9421eecec/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/48a23b1626e076a1fc4b536ec22ff5a1/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/0adb13cebcd28099d521dacf9f251c09/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-common:2.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/d9d3c97ed34779319f53a781a428ee8e/navigation-common-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/1385c277c66981aaef010899cf97b565/core-1.1.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/952a63305ca53b62783a853decbdb954/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/f4e73beae1d92d8bc578b13d432283c5/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/776ab8661d1e4070fc49be58e531d144/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/8b75191cd8980e2f2823cab4e024d755/lifecycle-process-2.1.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/274ac73d30a99c443d8310be36157ae5/lifecycle-service-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/bedee3b858fc1e070e11537fa199cd46/lifecycle-runtime-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.room:room-ktx:2.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/bf0a7a9a65a4e0b8ed7ed12587956429/room-ktx-2.2.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.room:room-runtime:2.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/e23785b902a6cb3732e06a4d58efba63/room-runtime-2.2.1/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/ece3d08f25c8cc532be2a28a1b0f0a8d/lifecycle-livedata-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/915303eed09c74c20d37dbd697d993b6/lifecycle-livedata-core-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/0de4208a5c2660d661c20d271f2a220f/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/69767083bfedb79d65e295c484057a50/savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/c06d485fd60859e84b657421cfd9999b/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /home/popy/.gradle/caches/transforms-2/files-2.1/c696ea0550cac30b6fec0b6b8ebda7f5/jetified-gifdecoder-4.8.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.sqlite:sqlite-framework:2.0.1] /home/popy/.gradle/caches/transforms-2/files-2.1/4013d94a1977df2f3792cef5e07ae7e9/sqlite-framework-2.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite:2.0.1] /home/popy/.gradle/caches/transforms-2/files-2.1/f0c2c32415d3080afa472a21ac2e84f6/sqlite-2.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/1d9b13b9121676286cdc1ed47de59755/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/7fff10bb25d55c509e4d7d35b28e3cb3/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/2122327977537e0ef5a362c10e19af77/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/2821627e702e2d299b6f53e36c225761/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.10.1] /home/popy/.gradle/caches/transforms-2/files-2.1/4653c8a93a2bb170cedfd6aa6f3351c0/jetified-crashlytics-2.10.1/AndroidManifest.xml:2:1-26:12
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.7.0] /home/popy/.gradle/caches/transforms-2/files-2.1/28abf0c5249e299d168d3113ad5d16b3/crashlytics-core-2.7.0/AndroidManifest.xml:45:1-56:12
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /home/popy/.gradle/caches/transforms-2/files-2.1/47dbff40e5ea9a6c96db4a3d7477104f/beta-1.2.10/AndroidManifest.xml:2:1-13:12
+MERGED from [com.crashlytics.sdk.android:answers:1.4.7] /home/popy/.gradle/caches/transforms-2/files-2.1/67b76dbdfbc1762fdacf353609f0ae2b/jetified-answers-1.4.7/AndroidManifest.xml:2:1-13:12
+MERGED from [io.fabric.sdk.android:fabric:1.4.8] /home/popy/.gradle/caches/transforms-2/files-2.1/386cec3ca94dafe6c1b5f3edac599e72/fabric-1.4.8/AndroidManifest.xml:22:1-33:12
+INJECTED from /home/popy/Documents/gka/workspace_gka/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /home/popy/Documents/gka/workspace_gka/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /home/popy/Documents/gka/workspace_gka/app/src/main/AndroidManifest.xml:2:1-34:12
 	package
 		ADDED from /home/popy/Documents/gka/workspace_gka/app/src/main/AndroidManifest.xml:3:5-32
 		INJECTED from /home/popy/Documents/gka/workspace_gka/app/src/main/AndroidManifest.xml
 		INJECTED from /home/popy/Documents/gka/workspace_gka/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /home/popy/Documents/gka/workspace_gka/app/src/main/AndroidManifest.xml
-		ADDED from /home/popy/Documents/gka/workspace_gka/app/src/main/AndroidManifest.xml:2:1-28:12
+		ADDED from /home/popy/Documents/gka/workspace_gka/app/src/main/AndroidManifest.xml:2:1-34:12
 		INJECTED from /home/popy/Documents/gka/workspace_gka/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /home/popy/Documents/gka/workspace_gka/app/src/main/AndroidManifest.xml
-		ADDED from /home/popy/Documents/gka/workspace_gka/app/src/main/AndroidManifest.xml:2:1-28:12
+		ADDED from /home/popy/Documents/gka/workspace_gka/app/src/main/AndroidManifest.xml:2:1-34:12
 		INJECTED from /home/popy/Documents/gka/workspace_gka/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /home/popy/Documents/gka/workspace_gka/app/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
 ADDED from /home/popy/Documents/gka/workspace_gka/app/src/main/AndroidManifest.xml:5:5-67
+MERGED from [com.google.android.gms:play-services-measurement:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/1b3c43fe995505aa600f346b34ee8056/play-services-measurement-17.2.1/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/1b3c43fe995505aa600f346b34ee8056/play-services-measurement-17.2.1/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/0cd3a669731a5c1a1205893154286809/play-services-measurement-api-17.2.1/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/0cd3a669731a5c1a1205893154286809/play-services-measurement-api-17.2.1/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/58ff2540e5658b49975ca2e63d805927/play-services-measurement-impl-17.2.1/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/58ff2540e5658b49975ca2e63d805927/play-services-measurement-impl-17.2.1/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/73d5b113065ca1d49138438d8d65f6ae/play-services-measurement-sdk-api-17.2.1/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/73d5b113065ca1d49138438d8d65f6ae/play-services-measurement-sdk-api-17.2.1/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/2b1dad59a13a77d4ae94684324d93525/firebase-iid-19.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/2b1dad59a13a77d4ae94684324d93525/firebase-iid-19.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.10.1] /home/popy/.gradle/caches/transforms-2/files-2.1/4653c8a93a2bb170cedfd6aa6f3351c0/jetified-crashlytics-2.10.1/AndroidManifest.xml:16:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.10.1] /home/popy/.gradle/caches/transforms-2/files-2.1/4653c8a93a2bb170cedfd6aa6f3351c0/jetified-crashlytics-2.10.1/AndroidManifest.xml:16:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.7.0] /home/popy/.gradle/caches/transforms-2/files-2.1/28abf0c5249e299d168d3113ad5d16b3/crashlytics-core-2.7.0/AndroidManifest.xml:52:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.7.0] /home/popy/.gradle/caches/transforms-2/files-2.1/28abf0c5249e299d168d3113ad5d16b3/crashlytics-core-2.7.0/AndroidManifest.xml:52:5-67
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /home/popy/.gradle/caches/transforms-2/files-2.1/47dbff40e5ea9a6c96db4a3d7477104f/beta-1.2.10/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /home/popy/.gradle/caches/transforms-2/files-2.1/47dbff40e5ea9a6c96db4a3d7477104f/beta-1.2.10/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:answers:1.4.7] /home/popy/.gradle/caches/transforms-2/files-2.1/67b76dbdfbc1762fdacf353609f0ae2b/jetified-answers-1.4.7/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:answers:1.4.7] /home/popy/.gradle/caches/transforms-2/files-2.1/67b76dbdfbc1762fdacf353609f0ae2b/jetified-answers-1.4.7/AndroidManifest.xml:9:5-67
+MERGED from [io.fabric.sdk.android:fabric:1.4.8] /home/popy/.gradle/caches/transforms-2/files-2.1/386cec3ca94dafe6c1b5f3edac599e72/fabric-1.4.8/AndroidManifest.xml:29:5-67
+MERGED from [io.fabric.sdk.android:fabric:1.4.8] /home/popy/.gradle/caches/transforms-2/files-2.1/386cec3ca94dafe6c1b5f3edac599e72/fabric-1.4.8/AndroidManifest.xml:29:5-67
 	android:name
 		ADDED from /home/popy/Documents/gka/workspace_gka/app/src/main/AndroidManifest.xml:5:22-64
 application
-ADDED from /home/popy/Documents/gka/workspace_gka/app/src/main/AndroidManifest.xml:6:5-27:19
-MERGED from [com.google.android.material:material:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/9ee5da6fca20f6f07dce6c73fc4ca33a/material-1.0.0/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.material:material:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/9ee5da6fca20f6f07dce6c73fc4ca33a/material-1.0.0/AndroidManifest.xml:22:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/popy/.gradle/caches/transforms-2/files-2.1/c1763829f79bc3811543d2bb9a22b866/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/popy/.gradle/caches/transforms-2/files-2.1/c1763829f79bc3811543d2bb9a22b866/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
-MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/4f3f57a83cb26d1dd8ca69501722966b/lifecycle-extensions-2.1.0/AndroidManifest.xml:22:5-23:19
-MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/4f3f57a83cb26d1dd8ca69501722966b/lifecycle-extensions-2.1.0/AndroidManifest.xml:22:5-23:19
-MERGED from [androidx.core:core:1.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/7f6c41cc2a14c0fbaa8d0166c17dc544/core-1.1.0/AndroidManifest.xml:24:5-89
-MERGED from [androidx.core:core:1.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/7f6c41cc2a14c0fbaa8d0166c17dc544/core-1.1.0/AndroidManifest.xml:24:5-89
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/9a29ee90fd211f611caccd9d338a3e44/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/9a29ee90fd211f611caccd9d338a3e44/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/e50b3f7edd4f9041d2755ee263c7c860/lifecycle-process-2.1.0/AndroidManifest.xml:22:5-28:19
-MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/e50b3f7edd4f9041d2755ee263c7c860/lifecycle-process-2.1.0/AndroidManifest.xml:22:5-28:19
+ADDED from /home/popy/Documents/gka/workspace_gka/app/src/main/AndroidManifest.xml:7:5-32:19
+MERGED from [com.google.android.material:material:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/37c59bb9490af5ce168f6af314373aaf/material-1.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/37c59bb9490af5ce168f6af314373aaf/material-1.0.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/popy/.gradle/caches/transforms-2/files-2.1/06b328900271d387292b684738984190/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/popy/.gradle/caches/transforms-2/files-2.1/06b328900271d387292b684738984190/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/5876f743e5caeb901d99c55102a26b11/lifecycle-extensions-2.1.0/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/5876f743e5caeb901d99c55102a26b11/lifecycle-extensions-2.1.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.github.bumptech.glide:glide:4.8.0] /home/popy/.gradle/caches/transforms-2/files-2.1/37c1d1ee8d0fe1ab1824c42f0d570e03/jetified-glide-4.8.0/AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.8.0] /home/popy/.gradle/caches/transforms-2/files-2.1/37c1d1ee8d0fe1ab1824c42f0d570e03/jetified-glide-4.8.0/AndroidManifest.xml:10:5-20
+MERGED from [com.google.firebase:firebase-analytics:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/b1dc4621fec89999ea1c7bf4b6c0aa50/firebase-analytics-17.2.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/b1dc4621fec89999ea1c7bf4b6c0aa50/firebase-analytics-17.2.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/1b3c43fe995505aa600f346b34ee8056/play-services-measurement-17.2.1/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/1b3c43fe995505aa600f346b34ee8056/play-services-measurement-17.2.1/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/0cd3a669731a5c1a1205893154286809/play-services-measurement-api-17.2.1/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/0cd3a669731a5c1a1205893154286809/play-services-measurement-api-17.2.1/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/e22ded062ee6d297995a62bec09840c7/play-services-measurement-sdk-17.2.1/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/e22ded062ee6d297995a62bec09840c7/play-services-measurement-sdk-17.2.1/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/58ff2540e5658b49975ca2e63d805927/play-services-measurement-impl-17.2.1/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/58ff2540e5658b49975ca2e63d805927/play-services-measurement-impl-17.2.1/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-base:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/2d64f48998be17f4f35f487ea9b5f30c/play-services-measurement-base-17.2.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/2d64f48998be17f4f35f487ea9b5f30c/play-services-measurement-base-17.2.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/2b1dad59a13a77d4ae94684324d93525/firebase-iid-19.0.0/AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/2b1dad59a13a77d4ae94684324d93525/firebase-iid-19.0.0/AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/842d2cfbaa59f75d2a11d9271adec69f/play-services-stats-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/842d2cfbaa59f75d2a11d9271adec69f/play-services-stats-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-common:19.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/bb19830102ada7a41fe0b16856c6b2a8/firebase-common-19.0.0/AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.firebase:firebase-common:19.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/bb19830102ada7a41fe0b16856c6b2a8/firebase-common-19.0.0/AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/7385e2bc8b9556f20ab0b97431f88ea5/firebase-iid-interop-17.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/7385e2bc8b9556f20ab0b97431f88ea5/firebase-iid-interop-17.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/59d8114bca0c340ff0fe8d5c634ff8dc/play-services-base-17.0.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/59d8114bca0c340ff0fe8d5c634ff8dc/play-services-base-17.0.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/7fc0522e94fff7c1764a35f95034248d/play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/7fc0522e94fff7c1764a35f95034248d/play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/a9c18ae076570452a883cb1470222818/firebase-measurement-connector-18.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/a9c18ae076570452a883cb1470222818/firebase-measurement-connector-18.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/d114e0cffbb817daf9c3387c0f6187d0/play-services-ads-identifier-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/d114e0cffbb817daf9c3387c0f6187d0/play-services-ads-identifier-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/aff0bc480dc353930c400d00c68f85d0/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/aff0bc480dc353930c400d00c68f85d0/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/1385c277c66981aaef010899cf97b565/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/1385c277c66981aaef010899cf97b565/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/776ab8661d1e4070fc49be58e531d144/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/776ab8661d1e4070fc49be58e531d144/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/8b75191cd8980e2f2823cab4e024d755/lifecycle-process-2.1.0/AndroidManifest.xml:22:5-28:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/8b75191cd8980e2f2823cab4e024d755/lifecycle-process-2.1.0/AndroidManifest.xml:22:5-28:19
+MERGED from [androidx.room:room-runtime:2.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/e23785b902a6cb3732e06a4d58efba63/room-runtime-2.2.1/AndroidManifest.xml:24:5-28:19
+MERGED from [androidx.room:room-runtime:2.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/e23785b902a6cb3732e06a4d58efba63/room-runtime-2.2.1/AndroidManifest.xml:24:5-28:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /home/popy/.gradle/caches/transforms-2/files-2.1/c696ea0550cac30b6fec0b6b8ebda7f5/jetified-gifdecoder-4.8.0/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /home/popy/.gradle/caches/transforms-2/files-2.1/c696ea0550cac30b6fec0b6b8ebda7f5/jetified-gifdecoder-4.8.0/AndroidManifest.xml:9:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.10.1] /home/popy/.gradle/caches/transforms-2/files-2.1/4653c8a93a2bb170cedfd6aa6f3351c0/jetified-crashlytics-2.10.1/AndroidManifest.xml:18:5-24:19
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.10.1] /home/popy/.gradle/caches/transforms-2/files-2.1/4653c8a93a2bb170cedfd6aa6f3351c0/jetified-crashlytics-2.10.1/AndroidManifest.xml:18:5-24:19
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.7.0] /home/popy/.gradle/caches/transforms-2/files-2.1/28abf0c5249e299d168d3113ad5d16b3/crashlytics-core-2.7.0/AndroidManifest.xml:54:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.7.0] /home/popy/.gradle/caches/transforms-2/files-2.1/28abf0c5249e299d168d3113ad5d16b3/crashlytics-core-2.7.0/AndroidManifest.xml:54:5-20
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /home/popy/.gradle/caches/transforms-2/files-2.1/47dbff40e5ea9a6c96db4a3d7477104f/beta-1.2.10/AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /home/popy/.gradle/caches/transforms-2/files-2.1/47dbff40e5ea9a6c96db4a3d7477104f/beta-1.2.10/AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:answers:1.4.7] /home/popy/.gradle/caches/transforms-2/files-2.1/67b76dbdfbc1762fdacf353609f0ae2b/jetified-answers-1.4.7/AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:answers:1.4.7] /home/popy/.gradle/caches/transforms-2/files-2.1/67b76dbdfbc1762fdacf353609f0ae2b/jetified-answers-1.4.7/AndroidManifest.xml:11:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.4.8] /home/popy/.gradle/caches/transforms-2/files-2.1/386cec3ca94dafe6c1b5f3edac599e72/fabric-1.4.8/AndroidManifest.xml:31:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.4.8] /home/popy/.gradle/caches/transforms-2/files-2.1/386cec3ca94dafe6c1b5f3edac599e72/fabric-1.4.8/AndroidManifest.xml:31:5-20
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/7f6c41cc2a14c0fbaa8d0166c17dc544/core-1.1.0/AndroidManifest.xml:24:18-86
+		ADDED from [androidx.core:core:1.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/1385c277c66981aaef010899cf97b565/core-1.1.0/AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from /home/popy/Documents/gka/workspace_gka/app/src/main/AndroidManifest.xml:11:9-35
+		ADDED from /home/popy/Documents/gka/workspace_gka/app/src/main/AndroidManifest.xml:12:9-35
 	android:label
-		ADDED from /home/popy/Documents/gka/workspace_gka/app/src/main/AndroidManifest.xml:9:9-41
+		ADDED from /home/popy/Documents/gka/workspace_gka/app/src/main/AndroidManifest.xml:10:9-41
 	android:roundIcon
-		ADDED from /home/popy/Documents/gka/workspace_gka/app/src/main/AndroidManifest.xml:10:9-54
+		ADDED from /home/popy/Documents/gka/workspace_gka/app/src/main/AndroidManifest.xml:11:9-54
 	android:icon
-		ADDED from /home/popy/Documents/gka/workspace_gka/app/src/main/AndroidManifest.xml:8:9-43
+		ADDED from /home/popy/Documents/gka/workspace_gka/app/src/main/AndroidManifest.xml:9:9-43
 	android:allowBackup
-		ADDED from /home/popy/Documents/gka/workspace_gka/app/src/main/AndroidManifest.xml:7:9-35
+		ADDED from /home/popy/Documents/gka/workspace_gka/app/src/main/AndroidManifest.xml:8:9-35
 	android:theme
-		ADDED from /home/popy/Documents/gka/workspace_gka/app/src/main/AndroidManifest.xml:12:9-40
+		ADDED from /home/popy/Documents/gka/workspace_gka/app/src/main/AndroidManifest.xml:13:9-40
+activity#com.gka.gkamobile.ui.RegisterActivity
+ADDED from /home/popy/Documents/gka/workspace_gka/app/src/main/AndroidManifest.xml:14:9-66
+	android:name
+		ADDED from /home/popy/Documents/gka/workspace_gka/app/src/main/AndroidManifest.xml:14:19-54
 activity#com.gka.gkamobile.ui.login.LoginActivity
-ADDED from /home/popy/Documents/gka/workspace_gka/app/src/main/AndroidManifest.xml:13:9-18:20
+ADDED from /home/popy/Documents/gka/workspace_gka/app/src/main/AndroidManifest.xml:15:9-23:20
 	android:name
-		ADDED from /home/popy/Documents/gka/workspace_gka/app/src/main/AndroidManifest.xml:13:19-57
+		ADDED from /home/popy/Documents/gka/workspace_gka/app/src/main/AndroidManifest.xml:15:19-57
 activity#com.gka.gkamobile.MainActivity
-ADDED from /home/popy/Documents/gka/workspace_gka/app/src/main/AndroidManifest.xml:19:9-26:20
+ADDED from /home/popy/Documents/gka/workspace_gka/app/src/main/AndroidManifest.xml:24:9-31:20
 	android:label
-		ADDED from /home/popy/Documents/gka/workspace_gka/app/src/main/AndroidManifest.xml:21:13-45
+		ADDED from /home/popy/Documents/gka/workspace_gka/app/src/main/AndroidManifest.xml:26:13-45
 	android:name
-		ADDED from /home/popy/Documents/gka/workspace_gka/app/src/main/AndroidManifest.xml:20:13-41
+		ADDED from /home/popy/Documents/gka/workspace_gka/app/src/main/AndroidManifest.xml:25:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/popy/Documents/gka/workspace_gka/app/src/main/AndroidManifest.xml:22:12-25:29
+ADDED from /home/popy/Documents/gka/workspace_gka/app/src/main/AndroidManifest.xml:27:13-30:29
 action#android.intent.action.MAIN
-ADDED from /home/popy/Documents/gka/workspace_gka/app/src/main/AndroidManifest.xml:23:17-69
+ADDED from /home/popy/Documents/gka/workspace_gka/app/src/main/AndroidManifest.xml:28:17-69
 	android:name
-		ADDED from /home/popy/Documents/gka/workspace_gka/app/src/main/AndroidManifest.xml:23:25-66
+		ADDED from /home/popy/Documents/gka/workspace_gka/app/src/main/AndroidManifest.xml:28:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/popy/Documents/gka/workspace_gka/app/src/main/AndroidManifest.xml:24:17-77
+ADDED from /home/popy/Documents/gka/workspace_gka/app/src/main/AndroidManifest.xml:29:17-77
 	android:name
-		ADDED from /home/popy/Documents/gka/workspace_gka/app/src/main/AndroidManifest.xml:24:27-74
+		ADDED from /home/popy/Documents/gka/workspace_gka/app/src/main/AndroidManifest.xml:29:27-74
 uses-sdk
 INJECTED from /home/popy/Documents/gka/workspace_gka/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/popy/Documents/gka/workspace_gka/app/src/main/AndroidManifest.xml
 INJECTED from /home/popy/Documents/gka/workspace_gka/app/src/main/AndroidManifest.xml
-MERGED from [androidx.navigation:navigation-ui:2.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/38e2b803083f5edbdfc86e01aa7e2980/jetified-navigation-ui-2.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-ui:2.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/38e2b803083f5edbdfc86e01aa7e2980/jetified-navigation-ui-2.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.material:material:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/9ee5da6fca20f6f07dce6c73fc4ca33a/material-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.material:material:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/9ee5da6fca20f6f07dce6c73fc4ca33a/material-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.appcompat:appcompat:1.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/f5bdf8930f5b0dade80802408310dda6/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat:1.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/f5bdf8930f5b0dade80802408310dda6/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/popy/.gradle/caches/transforms-2/files-2.1/c1763829f79bc3811543d2bb9a22b866/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/popy/.gradle/caches/transforms-2/files-2.1/c1763829f79bc3811543d2bb9a22b866/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/a44642c3bddc1cd9ae77529ce5394be3/appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/a44642c3bddc1cd9ae77529ce5394be3/appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/bf0848ee243e36dc13961016c6f63543/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/bf0848ee243e36dc13961016c6f63543/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/9572194aa98bde0ee13f87e0985824cf/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/9572194aa98bde0ee13f87e0985824cf/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-fragment:2.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/834397949403ccef5558b21c9967f60e/navigation-fragment-2.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-fragment:2.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/834397949403ccef5558b21c9967f60e/navigation-fragment-2.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/4f3f57a83cb26d1dd8ca69501722966b/lifecycle-extensions-2.1.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/4f3f57a83cb26d1dd8ca69501722966b/lifecycle-extensions-2.1.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.fragment:fragment:1.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/df9a84c4655b7cf6fd3ecff2821fd9d3/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/df9a84c4655b7cf6fd3ecff2821fd9d3/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.recyclerview:recyclerview:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/99839343cfb353ec06147cc6109cf9b2/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.recyclerview:recyclerview:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/99839343cfb353ec06147cc6109cf9b2/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/67e3a22614326cadf216274f01d6d423/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/67e3a22614326cadf216274f01d6d423/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/3d66247cb3e229dc7753f5f4d3b35b4b/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/3d66247cb3e229dc7753f5f4d3b35b4b/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/984e9edaa0792ad5f44429be517dd8ee/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/984e9edaa0792ad5f44429be517dd8ee/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.transition:transition:1.0.1] /home/popy/.gradle/caches/transforms-2/files-2.1/278c8e284db6fc9800db55d51ff5aab6/transition-1.0.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.transition:transition:1.0.1] /home/popy/.gradle/caches/transforms-2/files-2.1/278c8e284db6fc9800db55d51ff5aab6/transition-1.0.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/7ae8c1d65b7331eeb350edf91287a16c/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/7ae8c1d65b7331eeb350edf91287a16c/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/de3b4aff63e255359d6d83ac6fbdaff5/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/de3b4aff63e255359d6d83ac6fbdaff5/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.navigation:navigation-runtime:2.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/fef0d3e0cf442fb5cdebaa3af059bc1d/navigation-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-runtime:2.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/fef0d3e0cf442fb5cdebaa3af059bc1d/navigation-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/b96b3435fb358bdd7f04f1152639314c/activity-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/b96b3435fb358bdd7f04f1152639314c/activity-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/cbfe81a657ef2afb513a6ca64388f844/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/cbfe81a657ef2afb513a6ca64388f844/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/985ff358bb91108c25d3fd24361b35b6/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/985ff358bb91108c25d3fd24361b35b6/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/2dfde23a071269bfc073d57af77f7873/customview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/2dfde23a071269bfc073d57af77f7873/customview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/9b9140e118d7f4f83e504277c0661cb2/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/9b9140e118d7f4f83e504277c0661cb2/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/7b3b7b721ad53547c0e35001526b3ae3/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/7b3b7b721ad53547c0e35001526b3ae3/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.navigation:navigation-common:2.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/53b80eb10e19cd993179f750793a192b/navigation-common-2.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-common:2.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/53b80eb10e19cd993179f750793a192b/navigation-common-2.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/7f6c41cc2a14c0fbaa8d0166c17dc544/core-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/7f6c41cc2a14c0fbaa8d0166c17dc544/core-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/fb37b7f790edcc9d7fe6d3e5314b8c56/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/fb37b7f790edcc9d7fe6d3e5314b8c56/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cardview:cardview:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/c034f7088c57e18a85dafc68b942945f/cardview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cardview:cardview:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/c034f7088c57e18a85dafc68b942945f/cardview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/9a29ee90fd211f611caccd9d338a3e44/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/9a29ee90fd211f611caccd9d338a3e44/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/e50b3f7edd4f9041d2755ee263c7c860/lifecycle-process-2.1.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/e50b3f7edd4f9041d2755ee263c7c860/lifecycle-process-2.1.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/56ac9380cb774c810e6009b415c27771/lifecycle-service-2.1.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/56ac9380cb774c810e6009b415c27771/lifecycle-service-2.1.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/1bd2f6a321d0549948d7f1edb5f036d6/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/1bd2f6a321d0549948d7f1edb5f036d6/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/bd0a62944459a1adc1265a78d0c60d40/lifecycle-livedata-2.1.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/bd0a62944459a1adc1265a78d0c60d40/lifecycle-livedata-2.1.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/03f4a17b2aa275cfc7a94c5e6df20a9c/lifecycle-livedata-core-2.1.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/03f4a17b2aa275cfc7a94c5e6df20a9c/lifecycle-livedata-core-2.1.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/7fd288a66b1b8e0d6669d784ba4e7ede/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/7fd288a66b1b8e0d6669d784ba4e7ede/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/f031147607d3aeb238f176a00d5e308c/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/f031147607d3aeb238f176a00d5e308c/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/55566c395264c409f125230efea7fd76/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/55566c395264c409f125230efea7fd76/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/2d1f640c1b4beb33089ff5c91bbd7f31/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/2d1f640c1b4beb33089ff5c91bbd7f31/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/8506ddbc1ed30380944ad7f0369e4760/documentfile-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/8506ddbc1ed30380944ad7f0369e4760/documentfile-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/35d6382087ac1999db47004e3bf24934/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/35d6382087ac1999db47004e3bf24934/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/8893b90c6f2a61edd1acfa898cb4cde1/print-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/8893b90c6f2a61edd1acfa898cb4cde1/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-ui:2.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/e907733e511d43fcbae2e32407af2db9/jetified-navigation-ui-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/e907733e511d43fcbae2e32407af2db9/jetified-navigation-ui-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/37c59bb9490af5ce168f6af314373aaf/material-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/37c59bb9490af5ce168f6af314373aaf/material-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/f0f00ace77ec1f6933ba390ef5299f71/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/f0f00ace77ec1f6933ba390ef5299f71/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/popy/.gradle/caches/transforms-2/files-2.1/06b328900271d387292b684738984190/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/popy/.gradle/caches/transforms-2/files-2.1/06b328900271d387292b684738984190/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/f0048c7e3b1467039344bc3cf5c2861a/appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/f0048c7e3b1467039344bc3cf5c2861a/appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/05574dbcf027747f7d0f86220dfc5375/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/05574dbcf027747f7d0f86220dfc5375/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/a0a75a08c915af6e89c358c7c9393454/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/a0a75a08c915af6e89c358c7c9393454/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/fd49fc6b9b85a6c3336cbb13a3e5285e/navigation-fragment-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/fd49fc6b9b85a6c3336cbb13a3e5285e/navigation-fragment-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/5876f743e5caeb901d99c55102a26b11/lifecycle-extensions-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/5876f743e5caeb901d99c55102a26b11/lifecycle-extensions-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/00ef7558537e5b6236eebb808e0a830b/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/00ef7558537e5b6236eebb808e0a830b/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-guava:2.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/ae6595bb681fe537a44fa8537798f4e4/room-guava-2.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-guava:2.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/ae6595bb681fe537a44fa8537798f4e4/room-guava-2.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/b8add2e3672dfc67176115c6b10100f2/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/b8add2e3672dfc67176115c6b10100f2/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:glide:4.8.0] /home/popy/.gradle/caches/transforms-2/files-2.1/37c1d1ee8d0fe1ab1824c42f0d570e03/jetified-glide-4.8.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.8.0] /home/popy/.gradle/caches/transforms-2/files-2.1/37c1d1ee8d0fe1ab1824c42f0d570e03/jetified-glide-4.8.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-analytics:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/b1dc4621fec89999ea1c7bf4b6c0aa50/firebase-analytics-17.2.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/b1dc4621fec89999ea1c7bf4b6c0aa50/firebase-analytics-17.2.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/1b3c43fe995505aa600f346b34ee8056/play-services-measurement-17.2.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/1b3c43fe995505aa600f346b34ee8056/play-services-measurement-17.2.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/0cd3a669731a5c1a1205893154286809/play-services-measurement-api-17.2.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/0cd3a669731a5c1a1205893154286809/play-services-measurement-api-17.2.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/e22ded062ee6d297995a62bec09840c7/play-services-measurement-sdk-17.2.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/e22ded062ee6d297995a62bec09840c7/play-services-measurement-sdk-17.2.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/58ff2540e5658b49975ca2e63d805927/play-services-measurement-impl-17.2.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/58ff2540e5658b49975ca2e63d805927/play-services-measurement-impl-17.2.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/73d5b113065ca1d49138438d8d65f6ae/play-services-measurement-sdk-api-17.2.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/73d5b113065ca1d49138438d8d65f6ae/play-services-measurement-sdk-api-17.2.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/2d64f48998be17f4f35f487ea9b5f30c/play-services-measurement-base-17.2.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/2d64f48998be17f4f35f487ea9b5f30c/play-services-measurement-base-17.2.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/2b1dad59a13a77d4ae94684324d93525/firebase-iid-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/2b1dad59a13a77d4ae94684324d93525/firebase-iid-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/842d2cfbaa59f75d2a11d9271adec69f/play-services-stats-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/842d2cfbaa59f75d2a11d9271adec69f/play-services-stats-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:19.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/bb19830102ada7a41fe0b16856c6b2a8/firebase-common-19.0.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common:19.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/bb19830102ada7a41fe0b16856c6b2a8/firebase-common-19.0.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/7385e2bc8b9556f20ab0b97431f88ea5/firebase-iid-interop-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/7385e2bc8b9556f20ab0b97431f88ea5/firebase-iid-interop-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/59d8114bca0c340ff0fe8d5c634ff8dc/play-services-base-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/59d8114bca0c340ff0fe8d5c634ff8dc/play-services-base-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/7fc0522e94fff7c1764a35f95034248d/play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/7fc0522e94fff7c1764a35f95034248d/play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/a9c18ae076570452a883cb1470222818/firebase-measurement-connector-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/a9c18ae076570452a883cb1470222818/firebase-measurement-connector-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/d114e0cffbb817daf9c3387c0f6187d0/play-services-ads-identifier-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/d114e0cffbb817daf9c3387c0f6187d0/play-services-ads-identifier-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/aff0bc480dc353930c400d00c68f85d0/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/aff0bc480dc353930c400d00c68f85d0/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/03749e1f33b9e0e8d8bad1c230eba813/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/03749e1f33b9e0e8d8bad1c230eba813/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/70743a42805cd1bfac29254e8e61816b/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/70743a42805cd1bfac29254e8e61816b/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/18faca3ffc249f896a32e7ad95a49d04/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/18faca3ffc249f896a32e7ad95a49d04/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-rxjava2:2.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/9d8fa6c8ba369e8340331248cb7f41f0/room-rxjava2-2.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-rxjava2:2.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/9d8fa6c8ba369e8340331248cb7f41f0/room-rxjava2-2.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/8801b80dfca66b7e06976e28d16f22d4/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/8801b80dfca66b7e06976e28d16f22d4/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.1] /home/popy/.gradle/caches/transforms-2/files-2.1/4cd052c2c2a961efc998ffeb220d9288/transition-1.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.1] /home/popy/.gradle/caches/transforms-2/files-2.1/4cd052c2c2a961efc998ffeb220d9288/transition-1.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/1cb58e7603104218492d4c7233a33f30/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/1cb58e7603104218492d4c7233a33f30/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.jakewharton:butterknife:10.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/85a34fdf553707fc1a84f3af346deb30/butterknife-10.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.jakewharton:butterknife:10.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/85a34fdf553707fc1a84f3af346deb30/butterknife-10.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.jakewharton:butterknife-runtime:10.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/3216ac75b6d02563c3c075bfe98c2961/butterknife-runtime-10.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.jakewharton:butterknife-runtime:10.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/3216ac75b6d02563c3c075bfe98c2961/butterknife-runtime-10.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/9c2bdf3b637938204ee2631b6e302646/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/9c2bdf3b637938204ee2631b6e302646/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/cbf323ddfdc0e35ad5fb0c64f9ea090d/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/cbf323ddfdc0e35ad5fb0c64f9ea090d/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/906c363b86da9eed30b476bf38d5820f/navigation-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/906c363b86da9eed30b476bf38d5820f/navigation-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/c87c63a12e270d4cf554e443470841f4/activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/c87c63a12e270d4cf554e443470841f4/activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/769a8cd4f48605f030356d293f113748/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/769a8cd4f48605f030356d293f113748/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/6f511aec1b21c3520360775942d0100a/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/6f511aec1b21c3520360775942d0100a/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/4a0af19015d037555b8550b9421eecec/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/4a0af19015d037555b8550b9421eecec/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/48a23b1626e076a1fc4b536ec22ff5a1/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/48a23b1626e076a1fc4b536ec22ff5a1/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/0adb13cebcd28099d521dacf9f251c09/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/0adb13cebcd28099d521dacf9f251c09/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common:2.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/d9d3c97ed34779319f53a781a428ee8e/navigation-common-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/d9d3c97ed34779319f53a781a428ee8e/navigation-common-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/1385c277c66981aaef010899cf97b565/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/1385c277c66981aaef010899cf97b565/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/952a63305ca53b62783a853decbdb954/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/952a63305ca53b62783a853decbdb954/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/f4e73beae1d92d8bc578b13d432283c5/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/f4e73beae1d92d8bc578b13d432283c5/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/776ab8661d1e4070fc49be58e531d144/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/776ab8661d1e4070fc49be58e531d144/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/8b75191cd8980e2f2823cab4e024d755/lifecycle-process-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/8b75191cd8980e2f2823cab4e024d755/lifecycle-process-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/274ac73d30a99c443d8310be36157ae5/lifecycle-service-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/274ac73d30a99c443d8310be36157ae5/lifecycle-service-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/bedee3b858fc1e070e11537fa199cd46/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/bedee3b858fc1e070e11537fa199cd46/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-ktx:2.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/bf0a7a9a65a4e0b8ed7ed12587956429/room-ktx-2.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-ktx:2.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/bf0a7a9a65a4e0b8ed7ed12587956429/room-ktx-2.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/e23785b902a6cb3732e06a4d58efba63/room-runtime-2.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/e23785b902a6cb3732e06a4d58efba63/room-runtime-2.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/ece3d08f25c8cc532be2a28a1b0f0a8d/lifecycle-livedata-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/ece3d08f25c8cc532be2a28a1b0f0a8d/lifecycle-livedata-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/915303eed09c74c20d37dbd697d993b6/lifecycle-livedata-core-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/915303eed09c74c20d37dbd697d993b6/lifecycle-livedata-core-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/0de4208a5c2660d661c20d271f2a220f/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/0de4208a5c2660d661c20d271f2a220f/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/69767083bfedb79d65e295c484057a50/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/69767083bfedb79d65e295c484057a50/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/c06d485fd60859e84b657421cfd9999b/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/c06d485fd60859e84b657421cfd9999b/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /home/popy/.gradle/caches/transforms-2/files-2.1/c696ea0550cac30b6fec0b6b8ebda7f5/jetified-gifdecoder-4.8.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /home/popy/.gradle/caches/transforms-2/files-2.1/c696ea0550cac30b6fec0b6b8ebda7f5/jetified-gifdecoder-4.8.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.sqlite:sqlite-framework:2.0.1] /home/popy/.gradle/caches/transforms-2/files-2.1/4013d94a1977df2f3792cef5e07ae7e9/sqlite-framework-2.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.0.1] /home/popy/.gradle/caches/transforms-2/files-2.1/4013d94a1977df2f3792cef5e07ae7e9/sqlite-framework-2.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.0.1] /home/popy/.gradle/caches/transforms-2/files-2.1/f0c2c32415d3080afa472a21ac2e84f6/sqlite-2.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.0.1] /home/popy/.gradle/caches/transforms-2/files-2.1/f0c2c32415d3080afa472a21ac2e84f6/sqlite-2.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/1d9b13b9121676286cdc1ed47de59755/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/1d9b13b9121676286cdc1ed47de59755/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/7fff10bb25d55c509e4d7d35b28e3cb3/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/7fff10bb25d55c509e4d7d35b28e3cb3/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/2122327977537e0ef5a362c10e19af77/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/2122327977537e0ef5a362c10e19af77/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/2821627e702e2d299b6f53e36c225761/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/2821627e702e2d299b6f53e36c225761/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.10.1] /home/popy/.gradle/caches/transforms-2/files-2.1/4653c8a93a2bb170cedfd6aa6f3351c0/jetified-crashlytics-2.10.1/AndroidManifest.xml:12:5-14:63
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.10.1] /home/popy/.gradle/caches/transforms-2/files-2.1/4653c8a93a2bb170cedfd6aa6f3351c0/jetified-crashlytics-2.10.1/AndroidManifest.xml:12:5-14:63
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.7.0] /home/popy/.gradle/caches/transforms-2/files-2.1/28abf0c5249e299d168d3113ad5d16b3/crashlytics-core-2.7.0/AndroidManifest.xml:50:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.7.0] /home/popy/.gradle/caches/transforms-2/files-2.1/28abf0c5249e299d168d3113ad5d16b3/crashlytics-core-2.7.0/AndroidManifest.xml:50:5-43
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /home/popy/.gradle/caches/transforms-2/files-2.1/47dbff40e5ea9a6c96db4a3d7477104f/beta-1.2.10/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /home/popy/.gradle/caches/transforms-2/files-2.1/47dbff40e5ea9a6c96db4a3d7477104f/beta-1.2.10/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:answers:1.4.7] /home/popy/.gradle/caches/transforms-2/files-2.1/67b76dbdfbc1762fdacf353609f0ae2b/jetified-answers-1.4.7/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:answers:1.4.7] /home/popy/.gradle/caches/transforms-2/files-2.1/67b76dbdfbc1762fdacf353609f0ae2b/jetified-answers-1.4.7/AndroidManifest.xml:7:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.4.8] /home/popy/.gradle/caches/transforms-2/files-2.1/386cec3ca94dafe6c1b5f3edac599e72/fabric-1.4.8/AndroidManifest.xml:27:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.4.8] /home/popy/.gradle/caches/transforms-2/files-2.1/386cec3ca94dafe6c1b5f3edac599e72/fabric-1.4.8/AndroidManifest.xml:27:5-43
 INJECTED from /home/popy/Documents/gka/workspace_gka/app/src/main/AndroidManifest.xml
 INJECTED from /home/popy/Documents/gka/workspace_gka/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.10.1] /home/popy/.gradle/caches/transforms-2/files-2.1/4653c8a93a2bb170cedfd6aa6f3351c0/jetified-crashlytics-2.10.1/AndroidManifest.xml:14:9-60
 	android:targetSdkVersion
 		INJECTED from /home/popy/Documents/gka/workspace_gka/app/src/main/AndroidManifest.xml
 		ADDED from /home/popy/Documents/gka/workspace_gka/app/src/main/AndroidManifest.xml
@@ -210,13 +381,165 @@ INJECTED from /home/popy/Documents/gka/workspace_gka/app/src/main/AndroidManifes
 		INJECTED from /home/popy/Documents/gka/workspace_gka/app/src/main/AndroidManifest.xml
 		ADDED from /home/popy/Documents/gka/workspace_gka/app/src/main/AndroidManifest.xml
 		INJECTED from /home/popy/Documents/gka/workspace_gka/app/src/main/AndroidManifest.xml
-provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
-ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/e50b3f7edd4f9041d2755ee263c7c860/lifecycle-process-2.1.0/AndroidManifest.xml:23:9-27:43
-	android:authorities
-		ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/e50b3f7edd4f9041d2755ee263c7c860/lifecycle-process-2.1.0/AndroidManifest.xml:25:13-69
-	android:multiprocess
-		ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/e50b3f7edd4f9041d2755ee263c7c860/lifecycle-process-2.1.0/AndroidManifest.xml:27:13-40
-	android:exported
-		ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/e50b3f7edd4f9041d2755ee263c7c860/lifecycle-process-2.1.0/AndroidManifest.xml:26:13-37
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-measurement:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/1b3c43fe995505aa600f346b34ee8056/play-services-measurement-17.2.1/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/0cd3a669731a5c1a1205893154286809/play-services-measurement-api-17.2.1/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/0cd3a669731a5c1a1205893154286809/play-services-measurement-api-17.2.1/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/58ff2540e5658b49975ca2e63d805927/play-services-measurement-impl-17.2.1/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/58ff2540e5658b49975ca2e63d805927/play-services-measurement-impl-17.2.1/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/73d5b113065ca1d49138438d8d65f6ae/play-services-measurement-sdk-api-17.2.1/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/73d5b113065ca1d49138438d8d65f6ae/play-services-measurement-sdk-api-17.2.1/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/2b1dad59a13a77d4ae94684324d93525/firebase-iid-19.0.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/2b1dad59a13a77d4ae94684324d93525/firebase-iid-19.0.0/AndroidManifest.xml:22:5-79
 	android:name
-		ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/e50b3f7edd4f9041d2755ee263c7c860/lifecycle-process-2.1.0/AndroidManifest.xml:24:13-79
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/1b3c43fe995505aa600f346b34ee8056/play-services-measurement-17.2.1/AndroidManifest.xml:24:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-measurement:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/1b3c43fe995505aa600f346b34ee8056/play-services-measurement-17.2.1/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/0cd3a669731a5c1a1205893154286809/play-services-measurement-api-17.2.1/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/0cd3a669731a5c1a1205893154286809/play-services-measurement-api-17.2.1/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/58ff2540e5658b49975ca2e63d805927/play-services-measurement-impl-17.2.1/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/58ff2540e5658b49975ca2e63d805927/play-services-measurement-impl-17.2.1/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/73d5b113065ca1d49138438d8d65f6ae/play-services-measurement-sdk-api-17.2.1/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/73d5b113065ca1d49138438d8d65f6ae/play-services-measurement-sdk-api-17.2.1/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/2b1dad59a13a77d4ae94684324d93525/firebase-iid-19.0.0/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/2b1dad59a13a77d4ae94684324d93525/firebase-iid-19.0.0/AndroidManifest.xml:24:5-68
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/1b3c43fe995505aa600f346b34ee8056/play-services-measurement-17.2.1/AndroidManifest.xml:25:22-65
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.android.gms:play-services-measurement:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/1b3c43fe995505aa600f346b34ee8056/play-services-measurement-17.2.1/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/58ff2540e5658b49975ca2e63d805927/play-services-measurement-impl-17.2.1/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/58ff2540e5658b49975ca2e63d805927/play-services-measurement-impl-17.2.1/AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/1b3c43fe995505aa600f346b34ee8056/play-services-measurement-17.2.1/AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/1b3c43fe995505aa600f346b34ee8056/play-services-measurement-17.2.1/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/1b3c43fe995505aa600f346b34ee8056/play-services-measurement-17.2.1/AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/1b3c43fe995505aa600f346b34ee8056/play-services-measurement-17.2.1/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/1b3c43fe995505aa600f346b34ee8056/play-services-measurement-17.2.1/AndroidManifest.xml:30:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.android.gms:play-services-measurement:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/1b3c43fe995505aa600f346b34ee8056/play-services-measurement-17.2.1/AndroidManifest.xml:34:9-42:20
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/58ff2540e5658b49975ca2e63d805927/play-services-measurement-impl-17.2.1/AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/58ff2540e5658b49975ca2e63d805927/play-services-measurement-impl-17.2.1/AndroidManifest.xml:29:9-37:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/1b3c43fe995505aa600f346b34ee8056/play-services-measurement-17.2.1/AndroidManifest.xml:36:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/1b3c43fe995505aa600f346b34ee8056/play-services-measurement-17.2.1/AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/1b3c43fe995505aa600f346b34ee8056/play-services-measurement-17.2.1/AndroidManifest.xml:38:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/1b3c43fe995505aa600f346b34ee8056/play-services-measurement-17.2.1/AndroidManifest.xml:35:13-100
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.android.gms:play-services-measurement:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/1b3c43fe995505aa600f346b34ee8056/play-services-measurement-17.2.1/AndroidManifest.xml:39:13-41:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.android.gms:play-services-measurement:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/1b3c43fe995505aa600f346b34ee8056/play-services-measurement-17.2.1/AndroidManifest.xml:40:17-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/1b3c43fe995505aa600f346b34ee8056/play-services-measurement-17.2.1/AndroidManifest.xml:40:25-76
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/1b3c43fe995505aa600f346b34ee8056/play-services-measurement-17.2.1/AndroidManifest.xml:44:9-47:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/1b3c43fe995505aa600f346b34ee8056/play-services-measurement-17.2.1/AndroidManifest.xml:46:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/1b3c43fe995505aa600f346b34ee8056/play-services-measurement-17.2.1/AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/1b3c43fe995505aa600f346b34ee8056/play-services-measurement-17.2.1/AndroidManifest.xml:45:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/1b3c43fe995505aa600f346b34ee8056/play-services-measurement-17.2.1/AndroidManifest.xml:48:9-52:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/1b3c43fe995505aa600f346b34ee8056/play-services-measurement-17.2.1/AndroidManifest.xml:50:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/1b3c43fe995505aa600f346b34ee8056/play-services-measurement-17.2.1/AndroidManifest.xml:51:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/1b3c43fe995505aa600f346b34ee8056/play-services-measurement-17.2.1/AndroidManifest.xml:52:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/1b3c43fe995505aa600f346b34ee8056/play-services-measurement-17.2.1/AndroidManifest.xml:49:13-87
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.android.gms:play-services-measurement-api:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/0cd3a669731a5c1a1205893154286809/play-services-measurement-api-17.2.1/AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/2b1dad59a13a77d4ae94684324d93525/firebase-iid-19.0.0/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/2b1dad59a13a77d4ae94684324d93525/firebase-iid-19.0.0/AndroidManifest.xml:29:9-35:19
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/0cd3a669731a5c1a1205893154286809/play-services-measurement-api-17.2.1/AndroidManifest.xml:29:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/0cd3a669731a5c1a1205893154286809/play-services-measurement-api-17.2.1/AndroidManifest.xml:28:13-84
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/0cd3a669731a5c1a1205893154286809/play-services-measurement-api-17.2.1/AndroidManifest.xml:30:13-32:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/0cd3a669731a5c1a1205893154286809/play-services-measurement-api-17.2.1/AndroidManifest.xml:32:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/0cd3a669731a5c1a1205893154286809/play-services-measurement-api-17.2.1/AndroidManifest.xml:31:17-139
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:19.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/2b1dad59a13a77d4ae94684324d93525/firebase-iid-19.0.0/AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/2b1dad59a13a77d4ae94684324d93525/firebase-iid-19.0.0/AndroidManifest.xml:26:22-79
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:19.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/2b1dad59a13a77d4ae94684324d93525/firebase-iid-19.0.0/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/2b1dad59a13a77d4ae94684324d93525/firebase-iid-19.0.0/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/2b1dad59a13a77d4ae94684324d93525/firebase-iid-19.0.0/AndroidManifest.xml:33:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:19.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/2b1dad59a13a77d4ae94684324d93525/firebase-iid-19.0.0/AndroidManifest.xml:37:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/2b1dad59a13a77d4ae94684324d93525/firebase-iid-19.0.0/AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/2b1dad59a13a77d4ae94684324d93525/firebase-iid-19.0.0/AndroidManifest.xml:40:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/2b1dad59a13a77d4ae94684324d93525/firebase-iid-19.0.0/AndroidManifest.xml:38:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:19.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/2b1dad59a13a77d4ae94684324d93525/firebase-iid-19.0.0/AndroidManifest.xml:41:13-43:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:19.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/2b1dad59a13a77d4ae94684324d93525/firebase-iid-19.0.0/AndroidManifest.xml:42:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/2b1dad59a13a77d4ae94684324d93525/firebase-iid-19.0.0/AndroidManifest.xml:42:25-78
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:19.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/bb19830102ada7a41fe0b16856c6b2a8/firebase-common-19.0.0/AndroidManifest.xml:12:9-16:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:19.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/bb19830102ada7a41fe0b16856c6b2a8/firebase-common-19.0.0/AndroidManifest.xml:14:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:19.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/bb19830102ada7a41fe0b16856c6b2a8/firebase-common-19.0.0/AndroidManifest.xml:15:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:19.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/bb19830102ada7a41fe0b16856c6b2a8/firebase-common-19.0.0/AndroidManifest.xml:16:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:19.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/bb19830102ada7a41fe0b16856c6b2a8/firebase-common-19.0.0/AndroidManifest.xml:13:13-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/59d8114bca0c340ff0fe8d5c634ff8dc/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/59d8114bca0c340ff0fe8d5c634ff8dc/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/59d8114bca0c340ff0fe8d5c634ff8dc/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/59d8114bca0c340ff0fe8d5c634ff8dc/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/aff0bc480dc353930c400d00c68f85d0/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/aff0bc480dc353930c400d00c68f85d0/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/aff0bc480dc353930c400d00c68f85d0/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/8b75191cd8980e2f2823cab4e024d755/lifecycle-process-2.1.0/AndroidManifest.xml:23:9-27:43
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/8b75191cd8980e2f2823cab4e024d755/lifecycle-process-2.1.0/AndroidManifest.xml:25:13-69
+	android:multiprocess
+		ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/8b75191cd8980e2f2823cab4e024d755/lifecycle-process-2.1.0/AndroidManifest.xml:27:13-40
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/8b75191cd8980e2f2823cab4e024d755/lifecycle-process-2.1.0/AndroidManifest.xml:26:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/8b75191cd8980e2f2823cab4e024d755/lifecycle-process-2.1.0/AndroidManifest.xml:24:13-79
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/e23785b902a6cb3732e06a4d58efba63/room-runtime-2.2.1/AndroidManifest.xml:25:9-27:40
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/e23785b902a6cb3732e06a4d58efba63/room-runtime-2.2.1/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.room:room-runtime:2.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/e23785b902a6cb3732e06a4d58efba63/room-runtime-2.2.1/AndroidManifest.xml:26:13-74
+provider#com.crashlytics.android.CrashlyticsInitProvider
+ADDED from [com.crashlytics.sdk.android:crashlytics:2.10.1] /home/popy/.gradle/caches/transforms-2/files-2.1/4653c8a93a2bb170cedfd6aa6f3351c0/jetified-crashlytics-2.10.1/AndroidManifest.xml:19:9-23:38
+	android:authorities
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.10.1] /home/popy/.gradle/caches/transforms-2/files-2.1/4653c8a93a2bb170cedfd6aa6f3351c0/jetified-crashlytics-2.10.1/AndroidManifest.xml:21:13-75
+	android:exported
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.10.1] /home/popy/.gradle/caches/transforms-2/files-2.1/4653c8a93a2bb170cedfd6aa6f3351c0/jetified-crashlytics-2.10.1/AndroidManifest.xml:22:13-37
+	android:initOrder
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.10.1] /home/popy/.gradle/caches/transforms-2/files-2.1/4653c8a93a2bb170cedfd6aa6f3351c0/jetified-crashlytics-2.10.1/AndroidManifest.xml:23:13-35
+	android:name
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.10.1] /home/popy/.gradle/caches/transforms-2/files-2.1/4653c8a93a2bb170cedfd6aa6f3351c0/jetified-crashlytics-2.10.1/AndroidManifest.xml:20:13-75

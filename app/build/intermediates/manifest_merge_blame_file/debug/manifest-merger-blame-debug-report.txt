@@ -1,8 +1,8 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
 3    package="com.gka.gkamobile"
-4    android:versionCode="1"
-5    android:versionName="1.0" >
+4    android:versionCode="2"
+5    android:versionName="1.1" >
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
@@ -13,64 +13,204 @@
 11    <uses-permission android:name="android.permission.INTERNET" />
 11-->/home/popy/Documents/gka/workspace_gka/app/src/main/AndroidManifest.xml:5:5-67
 11-->/home/popy/Documents/gka/workspace_gka/app/src/main/AndroidManifest.xml:5:22-64
-12
-13    <application
-13-->/home/popy/Documents/gka/workspace_gka/app/src/main/AndroidManifest.xml:6:5-27:19
-14        android:allowBackup="true"
-14-->/home/popy/Documents/gka/workspace_gka/app/src/main/AndroidManifest.xml:7:9-35
-15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-15-->[androidx.core:core:1.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/7f6c41cc2a14c0fbaa8d0166c17dc544/core-1.1.0/AndroidManifest.xml:24:18-86
-16        android:debuggable="true"
-17        android:icon="@mipmap/ic_launcher"
-17-->/home/popy/Documents/gka/workspace_gka/app/src/main/AndroidManifest.xml:8:9-43
-18        android:label="@string/app_name"
-18-->/home/popy/Documents/gka/workspace_gka/app/src/main/AndroidManifest.xml:9:9-41
-19        android:roundIcon="@mipmap/ic_launcher_round"
-19-->/home/popy/Documents/gka/workspace_gka/app/src/main/AndroidManifest.xml:10:9-54
-20        android:supportsRtl="true"
-20-->/home/popy/Documents/gka/workspace_gka/app/src/main/AndroidManifest.xml:11:9-35
-21        android:testOnly="true"
-22        android:theme="@style/AppTheme" >
-22-->/home/popy/Documents/gka/workspace_gka/app/src/main/AndroidManifest.xml:12:9-40
-23        <activity android:name="com.gka.gkamobile.ui.login.LoginActivity" >
-23-->/home/popy/Documents/gka/workspace_gka/app/src/main/AndroidManifest.xml:13:9-18:20
-23-->/home/popy/Documents/gka/workspace_gka/app/src/main/AndroidManifest.xml:13:19-57
-24
-25            <!--
-26            <intent-filter>
-27                <action android:name="android.intent.action.MAIN" />
-28                <category android:name="android.intent.category.LAUNCHER" />
-29            </intent-filter>
-30            -->
-31        </activity>
-32        <activity
-32-->/home/popy/Documents/gka/workspace_gka/app/src/main/AndroidManifest.xml:19:9-26:20
-33            android:name="com.gka.gkamobile.MainActivity"
-33-->/home/popy/Documents/gka/workspace_gka/app/src/main/AndroidManifest.xml:20:13-41
-34            android:label="@string/app_name" >
-34-->/home/popy/Documents/gka/workspace_gka/app/src/main/AndroidManifest.xml:21:13-45
-35            <intent-filter>
-35-->/home/popy/Documents/gka/workspace_gka/app/src/main/AndroidManifest.xml:22:12-25:29
-36                <action android:name="android.intent.action.MAIN" />
-36-->/home/popy/Documents/gka/workspace_gka/app/src/main/AndroidManifest.xml:23:17-69
-36-->/home/popy/Documents/gka/workspace_gka/app/src/main/AndroidManifest.xml:23:25-66
-37
-38                <category android:name="android.intent.category.LAUNCHER" />
-38-->/home/popy/Documents/gka/workspace_gka/app/src/main/AndroidManifest.xml:24:17-77
-38-->/home/popy/Documents/gka/workspace_gka/app/src/main/AndroidManifest.xml:24:27-74
-39            </intent-filter>
-40        </activity>
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->[com.google.android.gms:play-services-measurement:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/1b3c43fe995505aa600f346b34ee8056/play-services-measurement-17.2.1/AndroidManifest.xml:24:5-79
+12-->[com.google.android.gms:play-services-measurement:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/1b3c43fe995505aa600f346b34ee8056/play-services-measurement-17.2.1/AndroidManifest.xml:24:22-76
+13    <uses-permission android:name="android.permission.WAKE_LOCK" />
+13-->[com.google.android.gms:play-services-measurement:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/1b3c43fe995505aa600f346b34ee8056/play-services-measurement-17.2.1/AndroidManifest.xml:25:5-68
+13-->[com.google.android.gms:play-services-measurement:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/1b3c43fe995505aa600f346b34ee8056/play-services-measurement-17.2.1/AndroidManifest.xml:25:22-65
+14    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+14-->[com.google.android.gms:play-services-measurement:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/1b3c43fe995505aa600f346b34ee8056/play-services-measurement-17.2.1/AndroidManifest.xml:26:5-110
+14-->[com.google.android.gms:play-services-measurement:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/1b3c43fe995505aa600f346b34ee8056/play-services-measurement-17.2.1/AndroidManifest.xml:26:22-107
+15    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+15-->[com.google.firebase:firebase-iid:19.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/2b1dad59a13a77d4ae94684324d93525/firebase-iid-19.0.0/AndroidManifest.xml:26:5-82
+15-->[com.google.firebase:firebase-iid:19.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/2b1dad59a13a77d4ae94684324d93525/firebase-iid-19.0.0/AndroidManifest.xml:26:22-79
+16
+17    <application
+17-->/home/popy/Documents/gka/workspace_gka/app/src/main/AndroidManifest.xml:7:5-32:19
+18        android:allowBackup="true"
+18-->/home/popy/Documents/gka/workspace_gka/app/src/main/AndroidManifest.xml:8:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/1385c277c66981aaef010899cf97b565/core-1.1.0/AndroidManifest.xml:24:18-86
+20        android:debuggable="true"
+21        android:icon="@mipmap/ic_launcher"
+21-->/home/popy/Documents/gka/workspace_gka/app/src/main/AndroidManifest.xml:9:9-43
+22        android:label="@string/app_name"
+22-->/home/popy/Documents/gka/workspace_gka/app/src/main/AndroidManifest.xml:10:9-41
+23        android:roundIcon="@mipmap/ic_launcher_round"
+23-->/home/popy/Documents/gka/workspace_gka/app/src/main/AndroidManifest.xml:11:9-54
+24        android:supportsRtl="true"
+24-->/home/popy/Documents/gka/workspace_gka/app/src/main/AndroidManifest.xml:12:9-35
+25        android:theme="@style/AppTheme" >
+25-->/home/popy/Documents/gka/workspace_gka/app/src/main/AndroidManifest.xml:13:9-40
+26        <activity android:name="com.gka.gkamobile.ui.RegisterActivity" />
+26-->/home/popy/Documents/gka/workspace_gka/app/src/main/AndroidManifest.xml:14:9-66
+26-->/home/popy/Documents/gka/workspace_gka/app/src/main/AndroidManifest.xml:14:19-54
+27        <activity android:name="com.gka.gkamobile.ui.login.LoginActivity" >
+27-->/home/popy/Documents/gka/workspace_gka/app/src/main/AndroidManifest.xml:15:9-23:20
+27-->/home/popy/Documents/gka/workspace_gka/app/src/main/AndroidManifest.xml:15:19-57
+28
+29            <!--
+30            <intent-filter>
+31                <action android:name="android.intent.action.MAIN" />
+32                <category android:name="android.intent.category.LAUNCHER" />
+33            </intent-filter>
+34            -->
+35        </activity>
+36        <activity
+36-->/home/popy/Documents/gka/workspace_gka/app/src/main/AndroidManifest.xml:24:9-31:20
+37            android:name="com.gka.gkamobile.MainActivity"
+37-->/home/popy/Documents/gka/workspace_gka/app/src/main/AndroidManifest.xml:25:13-41
+38            android:label="@string/app_name" >
+38-->/home/popy/Documents/gka/workspace_gka/app/src/main/AndroidManifest.xml:26:13-45
+39            <intent-filter>
+39-->/home/popy/Documents/gka/workspace_gka/app/src/main/AndroidManifest.xml:27:13-30:29
+40                <action android:name="android.intent.action.MAIN" />
+40-->/home/popy/Documents/gka/workspace_gka/app/src/main/AndroidManifest.xml:28:17-69
+40-->/home/popy/Documents/gka/workspace_gka/app/src/main/AndroidManifest.xml:28:25-66
 41
-42        <provider
-42-->[androidx.lifecycle:lifecycle-process:2.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/e50b3f7edd4f9041d2755ee263c7c860/lifecycle-process-2.1.0/AndroidManifest.xml:23:9-27:43
-43            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-43-->[androidx.lifecycle:lifecycle-process:2.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/e50b3f7edd4f9041d2755ee263c7c860/lifecycle-process-2.1.0/AndroidManifest.xml:24:13-79
-44            android:authorities="com.gka.gkamobile.lifecycle-process"
-44-->[androidx.lifecycle:lifecycle-process:2.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/e50b3f7edd4f9041d2755ee263c7c860/lifecycle-process-2.1.0/AndroidManifest.xml:25:13-69
-45            android:exported="false"
-45-->[androidx.lifecycle:lifecycle-process:2.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/e50b3f7edd4f9041d2755ee263c7c860/lifecycle-process-2.1.0/AndroidManifest.xml:26:13-37
-46            android:multiprocess="true" />
-46-->[androidx.lifecycle:lifecycle-process:2.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/e50b3f7edd4f9041d2755ee263c7c860/lifecycle-process-2.1.0/AndroidManifest.xml:27:13-40
-47    </application>
-48
-49</manifest>
+42                <category android:name="android.intent.category.LAUNCHER" />
+42-->/home/popy/Documents/gka/workspace_gka/app/src/main/AndroidManifest.xml:29:17-77
+42-->/home/popy/Documents/gka/workspace_gka/app/src/main/AndroidManifest.xml:29:27-74
+43            </intent-filter>
+44        </activity>
+45
+46        <receiver
+46-->[com.google.android.gms:play-services-measurement:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/1b3c43fe995505aa600f346b34ee8056/play-services-measurement-17.2.1/AndroidManifest.xml:29:9-33:20
+47            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+47-->[com.google.android.gms:play-services-measurement:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/1b3c43fe995505aa600f346b34ee8056/play-services-measurement-17.2.1/AndroidManifest.xml:30:13-85
+48            android:enabled="true"
+48-->[com.google.android.gms:play-services-measurement:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/1b3c43fe995505aa600f346b34ee8056/play-services-measurement-17.2.1/AndroidManifest.xml:31:13-35
+49            android:exported="false" >
+49-->[com.google.android.gms:play-services-measurement:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/1b3c43fe995505aa600f346b34ee8056/play-services-measurement-17.2.1/AndroidManifest.xml:32:13-37
+50        </receiver>
+51        <receiver
+51-->[com.google.android.gms:play-services-measurement:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/1b3c43fe995505aa600f346b34ee8056/play-services-measurement-17.2.1/AndroidManifest.xml:34:9-42:20
+52            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+52-->[com.google.android.gms:play-services-measurement:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/1b3c43fe995505aa600f346b34ee8056/play-services-measurement-17.2.1/AndroidManifest.xml:35:13-100
+53            android:enabled="true"
+53-->[com.google.android.gms:play-services-measurement:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/1b3c43fe995505aa600f346b34ee8056/play-services-measurement-17.2.1/AndroidManifest.xml:36:13-35
+54            android:exported="true"
+54-->[com.google.android.gms:play-services-measurement:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/1b3c43fe995505aa600f346b34ee8056/play-services-measurement-17.2.1/AndroidManifest.xml:37:13-36
+55            android:permission="android.permission.INSTALL_PACKAGES" >
+55-->[com.google.android.gms:play-services-measurement:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/1b3c43fe995505aa600f346b34ee8056/play-services-measurement-17.2.1/AndroidManifest.xml:38:13-69
+56            <intent-filter>
+56-->[com.google.android.gms:play-services-measurement:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/1b3c43fe995505aa600f346b34ee8056/play-services-measurement-17.2.1/AndroidManifest.xml:39:13-41:29
+57                <action android:name="com.android.vending.INSTALL_REFERRER" />
+57-->[com.google.android.gms:play-services-measurement:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/1b3c43fe995505aa600f346b34ee8056/play-services-measurement-17.2.1/AndroidManifest.xml:40:17-79
+57-->[com.google.android.gms:play-services-measurement:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/1b3c43fe995505aa600f346b34ee8056/play-services-measurement-17.2.1/AndroidManifest.xml:40:25-76
+58            </intent-filter>
+59        </receiver>
+60
+61        <service
+61-->[com.google.android.gms:play-services-measurement:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/1b3c43fe995505aa600f346b34ee8056/play-services-measurement-17.2.1/AndroidManifest.xml:44:9-47:40
+62            android:name="com.google.android.gms.measurement.AppMeasurementService"
+62-->[com.google.android.gms:play-services-measurement:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/1b3c43fe995505aa600f346b34ee8056/play-services-measurement-17.2.1/AndroidManifest.xml:45:13-84
+63            android:enabled="true"
+63-->[com.google.android.gms:play-services-measurement:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/1b3c43fe995505aa600f346b34ee8056/play-services-measurement-17.2.1/AndroidManifest.xml:46:13-35
+64            android:exported="false" />
+64-->[com.google.android.gms:play-services-measurement:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/1b3c43fe995505aa600f346b34ee8056/play-services-measurement-17.2.1/AndroidManifest.xml:47:13-37
+65        <service
+65-->[com.google.android.gms:play-services-measurement:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/1b3c43fe995505aa600f346b34ee8056/play-services-measurement-17.2.1/AndroidManifest.xml:48:9-52:72
+66            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+66-->[com.google.android.gms:play-services-measurement:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/1b3c43fe995505aa600f346b34ee8056/play-services-measurement-17.2.1/AndroidManifest.xml:49:13-87
+67            android:enabled="true"
+67-->[com.google.android.gms:play-services-measurement:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/1b3c43fe995505aa600f346b34ee8056/play-services-measurement-17.2.1/AndroidManifest.xml:50:13-35
+68            android:exported="false"
+68-->[com.google.android.gms:play-services-measurement:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/1b3c43fe995505aa600f346b34ee8056/play-services-measurement-17.2.1/AndroidManifest.xml:51:13-37
+69            android:permission="android.permission.BIND_JOB_SERVICE" />
+69-->[com.google.android.gms:play-services-measurement:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/1b3c43fe995505aa600f346b34ee8056/play-services-measurement-17.2.1/AndroidManifest.xml:52:13-69
+70        <service
+70-->[com.google.android.gms:play-services-measurement-api:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/0cd3a669731a5c1a1205893154286809/play-services-measurement-api-17.2.1/AndroidManifest.xml:27:9-33:19
+71            android:name="com.google.firebase.components.ComponentDiscoveryService"
+71-->[com.google.android.gms:play-services-measurement-api:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/0cd3a669731a5c1a1205893154286809/play-services-measurement-api-17.2.1/AndroidManifest.xml:28:13-84
+72            android:exported="false" >
+72-->[com.google.android.gms:play-services-measurement-api:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/0cd3a669731a5c1a1205893154286809/play-services-measurement-api-17.2.1/AndroidManifest.xml:29:13-37
+73            <meta-data
+73-->[com.google.android.gms:play-services-measurement-api:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/0cd3a669731a5c1a1205893154286809/play-services-measurement-api-17.2.1/AndroidManifest.xml:30:13-32:85
+74                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+74-->[com.google.android.gms:play-services-measurement-api:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/0cd3a669731a5c1a1205893154286809/play-services-measurement-api-17.2.1/AndroidManifest.xml:31:17-139
+75                android:value="com.google.firebase.components.ComponentRegistrar" />
+75-->[com.google.android.gms:play-services-measurement-api:17.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/0cd3a669731a5c1a1205893154286809/play-services-measurement-api-17.2.1/AndroidManifest.xml:32:17-82
+76            <meta-data
+76-->[com.google.firebase:firebase-iid:19.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/2b1dad59a13a77d4ae94684324d93525/firebase-iid-19.0.0/AndroidManifest.xml:32:13-34:85
+77                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+77-->[com.google.firebase:firebase-iid:19.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/2b1dad59a13a77d4ae94684324d93525/firebase-iid-19.0.0/AndroidManifest.xml:33:17-96
+78                android:value="com.google.firebase.components.ComponentRegistrar" />
+78-->[com.google.firebase:firebase-iid:19.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/2b1dad59a13a77d4ae94684324d93525/firebase-iid-19.0.0/AndroidManifest.xml:34:17-82
+79        </service>
+80
+81        <receiver
+81-->[com.google.firebase:firebase-iid:19.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/2b1dad59a13a77d4ae94684324d93525/firebase-iid-19.0.0/AndroidManifest.xml:37:9-44:20
+82            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+82-->[com.google.firebase:firebase-iid:19.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/2b1dad59a13a77d4ae94684324d93525/firebase-iid-19.0.0/AndroidManifest.xml:38:13-78
+83            android:exported="true"
+83-->[com.google.firebase:firebase-iid:19.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/2b1dad59a13a77d4ae94684324d93525/firebase-iid-19.0.0/AndroidManifest.xml:39:13-36
+84            android:permission="com.google.android.c2dm.permission.SEND" >
+84-->[com.google.firebase:firebase-iid:19.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/2b1dad59a13a77d4ae94684324d93525/firebase-iid-19.0.0/AndroidManifest.xml:40:13-73
+85            <intent-filter>
+85-->[com.google.firebase:firebase-iid:19.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/2b1dad59a13a77d4ae94684324d93525/firebase-iid-19.0.0/AndroidManifest.xml:41:13-43:29
+86                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+86-->[com.google.firebase:firebase-iid:19.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/2b1dad59a13a77d4ae94684324d93525/firebase-iid-19.0.0/AndroidManifest.xml:42:17-81
+86-->[com.google.firebase:firebase-iid:19.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/2b1dad59a13a77d4ae94684324d93525/firebase-iid-19.0.0/AndroidManifest.xml:42:25-78
+87            </intent-filter>
+88        </receiver>
+89
+90        <provider
+90-->[com.google.firebase:firebase-common:19.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/bb19830102ada7a41fe0b16856c6b2a8/firebase-common-19.0.0/AndroidManifest.xml:12:9-16:39
+91            android:name="com.google.firebase.provider.FirebaseInitProvider"
+91-->[com.google.firebase:firebase-common:19.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/bb19830102ada7a41fe0b16856c6b2a8/firebase-common-19.0.0/AndroidManifest.xml:13:13-77
+92            android:authorities="com.gka.gkamobile.firebaseinitprovider"
+92-->[com.google.firebase:firebase-common:19.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/bb19830102ada7a41fe0b16856c6b2a8/firebase-common-19.0.0/AndroidManifest.xml:14:13-72
+93            android:exported="false"
+93-->[com.google.firebase:firebase-common:19.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/bb19830102ada7a41fe0b16856c6b2a8/firebase-common-19.0.0/AndroidManifest.xml:15:13-37
+94            android:initOrder="100" />
+94-->[com.google.firebase:firebase-common:19.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/bb19830102ada7a41fe0b16856c6b2a8/firebase-common-19.0.0/AndroidManifest.xml:16:13-36
+95
+96        <activity
+96-->[com.google.android.gms:play-services-base:17.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/59d8114bca0c340ff0fe8d5c634ff8dc/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+97            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+97-->[com.google.android.gms:play-services-base:17.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/59d8114bca0c340ff0fe8d5c634ff8dc/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+98            android:exported="false"
+98-->[com.google.android.gms:play-services-base:17.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/59d8114bca0c340ff0fe8d5c634ff8dc/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+99            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+99-->[com.google.android.gms:play-services-base:17.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/59d8114bca0c340ff0fe8d5c634ff8dc/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+100
+101        <meta-data
+101-->[com.google.android.gms:play-services-basement:17.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/aff0bc480dc353930c400d00c68f85d0/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+102            android:name="com.google.android.gms.version"
+102-->[com.google.android.gms:play-services-basement:17.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/aff0bc480dc353930c400d00c68f85d0/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+103            android:value="@integer/google_play_services_version" />
+103-->[com.google.android.gms:play-services-basement:17.0.0] /home/popy/.gradle/caches/transforms-2/files-2.1/aff0bc480dc353930c400d00c68f85d0/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+104
+105        <provider
+105-->[androidx.lifecycle:lifecycle-process:2.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/8b75191cd8980e2f2823cab4e024d755/lifecycle-process-2.1.0/AndroidManifest.xml:23:9-27:43
+106            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+106-->[androidx.lifecycle:lifecycle-process:2.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/8b75191cd8980e2f2823cab4e024d755/lifecycle-process-2.1.0/AndroidManifest.xml:24:13-79
+107            android:authorities="com.gka.gkamobile.lifecycle-process"
+107-->[androidx.lifecycle:lifecycle-process:2.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/8b75191cd8980e2f2823cab4e024d755/lifecycle-process-2.1.0/AndroidManifest.xml:25:13-69
+108            android:exported="false"
+108-->[androidx.lifecycle:lifecycle-process:2.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/8b75191cd8980e2f2823cab4e024d755/lifecycle-process-2.1.0/AndroidManifest.xml:26:13-37
+109            android:multiprocess="true" />
+109-->[androidx.lifecycle:lifecycle-process:2.1.0] /home/popy/.gradle/caches/transforms-2/files-2.1/8b75191cd8980e2f2823cab4e024d755/lifecycle-process-2.1.0/AndroidManifest.xml:27:13-40
+110
+111        <service
+111-->[androidx.room:room-runtime:2.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/e23785b902a6cb3732e06a4d58efba63/room-runtime-2.2.1/AndroidManifest.xml:25:9-27:40
+112            android:name="androidx.room.MultiInstanceInvalidationService"
+112-->[androidx.room:room-runtime:2.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/e23785b902a6cb3732e06a4d58efba63/room-runtime-2.2.1/AndroidManifest.xml:26:13-74
+113            android:exported="false" />
+113-->[androidx.room:room-runtime:2.2.1] /home/popy/.gradle/caches/transforms-2/files-2.1/e23785b902a6cb3732e06a4d58efba63/room-runtime-2.2.1/AndroidManifest.xml:27:13-37
+114
+115        <provider
+115-->[com.crashlytics.sdk.android:crashlytics:2.10.1] /home/popy/.gradle/caches/transforms-2/files-2.1/4653c8a93a2bb170cedfd6aa6f3351c0/jetified-crashlytics-2.10.1/AndroidManifest.xml:19:9-23:38
+116            android:name="com.crashlytics.android.CrashlyticsInitProvider"
+116-->[com.crashlytics.sdk.android:crashlytics:2.10.1] /home/popy/.gradle/caches/transforms-2/files-2.1/4653c8a93a2bb170cedfd6aa6f3351c0/jetified-crashlytics-2.10.1/AndroidManifest.xml:20:13-75
+117            android:authorities="com.gka.gkamobile.crashlyticsinitprovider"
+117-->[com.crashlytics.sdk.android:crashlytics:2.10.1] /home/popy/.gradle/caches/transforms-2/files-2.1/4653c8a93a2bb170cedfd6aa6f3351c0/jetified-crashlytics-2.10.1/AndroidManifest.xml:21:13-75
+118            android:exported="false"
+118-->[com.crashlytics.sdk.android:crashlytics:2.10.1] /home/popy/.gradle/caches/transforms-2/files-2.1/4653c8a93a2bb170cedfd6aa6f3351c0/jetified-crashlytics-2.10.1/AndroidManifest.xml:22:13-37
+119            android:initOrder="90" />
+119-->[com.crashlytics.sdk.android:crashlytics:2.10.1] /home/popy/.gradle/caches/transforms-2/files-2.1/4653c8a93a2bb170cedfd6aa6f3351c0/jetified-crashlytics-2.10.1/AndroidManifest.xml:23:13-35
+120    </application>
+121
+122</manifest>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "153430194196",
+    "firebase_url": "https://gka-mobile.firebaseio.com",
+    "project_id": "gka-mobile",
+    "storage_bucket": "gka-mobile.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:153430194196:android:baf6f9854c0b2c15c48f01",
+        "android_client_info": {
+          "package_name": "com.gka.gkamobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "153430194196-earic3gsut5tuq6mqfgon3dbiprvi8ej.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gka.gkamobile",
+            "certificate_hash": "ce49826eb72c505841c388edb9d2544a08c55ed7"
+          }
+        },
+        {
+          "client_id": "153430194196-6nlne18pbinf1lihksqc3v36jibdq4lm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAExzUdWfJA1Kxf7C0f-AesC-U-JJbnjBw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "153430194196-6nlne18pbinf1lihksqc3v36jibdq4lm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
